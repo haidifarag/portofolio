@@ -1,0 +1,101 @@
+#works {
+    margin: 0 auto;  
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 2rem;
+}
+.worksTitle{
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+.worksDesc {
+    font-size: 1rem;
+    font-weight: 300;
+    max-width: 45rem;
+    margin-bottom: 2rem;
+}
+.work-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+    margin-top: 50px;
+}
+.worksImgs {
+    border-radius: 1rem ;
+    position: relative;
+    overflow: hidden;
+}
+
+.worksImg {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    display: block;
+    border: 6px solid white;
+    transition: transform 0.5s;
+}
+.layer{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.5), #7b0953);
+    border-radius: 1rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}   
+.layer h3{
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+.layer a{
+    margin-top: 1rem;
+    color: #ff004f;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 2rem;
+    background: #fff;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    text-align: center;
+}
+.layer p{
+    font-size: 1rem;
+    font-weight: 300;
+}
+.worksImgs:hover img{
+    transform: scale(1.1);
+}
+.worksImgs:hover .layer{
+    height: 100%;
+}
+.worksBtn {
+    margin: 3rem 0;
+    padding: 0.5rem ;
+    border: none;
+    border-radius: 2rem;
+    background: #fff;
+    color: rgb(87, 117, 77);
+    font-size:1rem ;
+    cursor: pointer;
+}
+@media screen and (max-width:585px)  {
+    .worksImg {
+        height: 48vw;
+    }
+}
