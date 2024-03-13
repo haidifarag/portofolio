@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d7f476aa.css",
+    "main.js": "/static/js/main.14eb208b.js",
+    "static/media/image.png": "/static/media/image.8bd3b61d5d9a875d77d6.png",
+    "static/media/port5.png": "/static/media/port5.2ae1bc179d7c04d19436.png",
+    "static/media/port2.png": "/static/media/port2.c33a48e98e1ba281d0f8.png",
+    "static/media/port7.png": "/static/media/port7.f250573a47c8cc8e692c.png",
+    "static/media/port4.png": "/static/media/port4.016462f1b07fcfb82ef0.png",
+    "static/media/html.png": "/static/media/html.6b03c1498a5ddfbaa0d3.png",
+    "static/media/css.png": "/static/media/css.c1fe6d1af8438f85d294.png",
+    "static/media/js.png": "/static/media/js.b2c0297b6fc643cc5e07.png",
+    "static/media/logo.png": "/static/media/logo.ac0380bad16339fd15d9.png",
+    "static/media/react.png": "/static/media/react.891efd83b0b628571b5e.png",
+    "static/media/port1.png": "/static/media/port1.826a6332644d7b58f7c1.png",
+    "static/media/port6.png": "/static/media/port6.b2b128a9b21283f96458.png",
+    "static/media/ui-design.png": "/static/media/ui-design.c4acd455fc2040eddcc8.png",
+    "static/media/instagram.png": "/static/media/instagram.0bcd1dcb7d853c327af7.png",
+    "index.html": "/index.html",
+    "main.d7f476aa.css.map": "/static/css/main.d7f476aa.css.map",
+    "main.14eb208b.js.map": "/static/js/main.14eb208b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7f476aa.css",
+    "static/js/main.14eb208b.js"
+  ]
+}
